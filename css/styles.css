@@ -1,0 +1,44 @@
+html{
+    background: rgb(27,90,209);
+    background: radial-gradient(circle, rgba(27,90,209,0.2511379551820728) 0%, rgba(38,55,142,0.5956757703081232) 1%, rgba(90,108,232,0.819765406162465) 22%, rgba(166,228,247,1) 74%, rgba(233,149,149,0.9850315126050421) 95%, rgba(0,212,255,1) 100%);
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 400;
+    cursor: cell;
+    /* apply a natural box layout model to all elements, but allowing components to change */
+
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+.contenedor{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 95%;
+}
+img{
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+}
+.simbol{
+    display: flex;
+    justify-content: left;
+}
+.simbol img{
+    width: 5%;
+    margin: 0;
+    padding:0 10px 0 0; 
+    border: 2px solid black;
+    border-left: 3px;
+    border-right: 1px;
+}
+h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    
+}
+
+
